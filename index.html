@@ -31,3 +31,100 @@
 <li><a href="../../index.html">Относительная ссылка на страницу в каталоге двумя уровнями выше текущего</a></li>
 <li><a href="/">Сокращённая ссылка на главную страницу</a></li>
 <li><a href="/downup">Сокращённая внутрення ссылка</a></li>
+</ol>
+<br>
+    <form>
+        <label>
+                Имя: 
+                <input name="name_polz" maxlength="25" size="25" value="Введите ваше Имя">
+        </label>
+        <br>
+        <br>
+
+        <label>
+                email: 
+                <input name="email_polz" type="email" maxlength="128" size="40" placeholder="Введите ваш email">
+        </label>
+        <br>
+        <br>
+
+        <label>
+                Дата рождения: 
+                <input name="data_polz" type="date" value="2000-01-01">
+        </label>
+        <br>
+        <br>
+
+        <label>
+                Пол:
+                <input name="pol" type="radio" checked="checked"> 
+                Мужской
+        </label>
+
+        <label>
+                <input name="pol" type="radio"> 
+                Женский
+        </label>
+        <br>
+        <br>
+
+        Количество конечностей:
+      
+        <label>
+            <input name="kol_kon" type="radio" checked> 
+            5
+        </label>
+      
+        <label>
+            <input name="kol_kon" type="radio" checked> 
+            4
+        </label>
+        
+        <label>
+            <input name="kol_kon" type="radio"> 
+            3
+        </label>
+
+        <label>
+            <input name="kol_kon" type="radio"> 
+            2
+        </label>
+        <br>
+        <br>
+
+        <label>
+            Суперспособности:
+            <br>
+            <select name="super" multiple="multiple" size="5">
+                <option value="1">Бессмертие</option>
+                <option value="2">Прохождение сквозь стены</option>
+                <option value="3">Левитация</option>
+                <option value="4">Невидимость</option>
+                <option value="5">Владение электричеством</option>
+            </select>
+        </label>
+        <br>
+        <br>
+
+        <label>
+            Поле для биографии:
+            <br>
+            <textarea name="bio" cols="30" rows="20" maxlength="1000">Ваша Биография</textarea>
+        </label>
+        <br>
+        <br>
+
+        <label>
+            С контрактом ознакомлен(а):
+            <input type="checkbox">
+        </label>
+        <br>
+        <br>
+        
+        <Label>
+            <input type="submit" value="Отправить">
+        </Label>
+        
+    </form>
+</body>
+</html>
