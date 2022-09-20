@@ -1,6 +1,6 @@
 #body{
     margin:0;
-    background-color: rgb(189, 236, 182);
+    background-color: rgb(68, 59, 49);
 
 }
 
@@ -31,11 +31,11 @@
 }
 
 #nav{
-     max-width: 960px;
-    background-color: rgb(206, 234, 236);
+    max-width: 960px;
+    background-color: rgb(37,29,22);
     margin: 0 auto;
     margin-top: 30px;
-    padding: 10px;
+    padding: 50px;
 }
 
 #c1{
@@ -73,7 +73,7 @@
 
 #footer{
     width: 100%;
-    background-color: rgb(0, 255, 127);
+    background-color: rgb(37,29,22);
     height: 70px;
     padding: 30px 0px 30px 0px;
     margin-top: 20px;
