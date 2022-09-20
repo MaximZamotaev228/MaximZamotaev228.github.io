@@ -91,12 +91,15 @@
  </tr>
   </table>
 </div>
-<div class="content" id="content_3">    
+<div class="content" id="content_3"> 
+<head>
+<h3 id="h3">Форма</h3>
+</head>
 <br>
     <form>
         <label>
                 Имя: 
-                <input name="name_polz" maxlength="25" size="25" value="Введите ваше имя">
+                <input name="name_polz" maxlength="25" size="25" value="Введите ваше Имя">
         </label>
         <br>
         <br>
@@ -110,7 +113,7 @@
 
         <label>
                 Дата рождения: 
-                <input name="data_polz" type="date" value="2022-01-01">
+                <input name="data_polz" type="date" value="2000-01-01">
         </label>
         <br>
         <br>
@@ -129,6 +132,12 @@
         <br>
 
         Количество конечностей:
+      
+        <label>
+            <input name="kol_kon" type="radio" checked> 
+            5
+        </label>
+      
         <label>
             <input name="kol_kon" type="radio" checked> 
             4
@@ -136,12 +145,12 @@
         
         <label>
             <input name="kol_kon" type="radio"> 
-            6
+            3
         </label>
 
         <label>
             <input name="kol_kon" type="radio"> 
-            8
+            2
         </label>
         <br>
         <br>
@@ -149,10 +158,12 @@
         <label>
             Суперспособности:
             <br>
-            <select name="super" multiple="multiple" size="3">
+            <select name="super" multiple="multiple" size="5">
                 <option value="1">Бессмертие</option>
                 <option value="2">Прохождение сквозь стены</option>
                 <option value="3">Левитация</option>
+                <option value="4">Невидимость</option>
+                <option value="5">Владение электричеством</option>
             </select>
         </label>
         <br>
@@ -161,7 +172,7 @@
         <label>
             Поле для биографии:
             <br>
-            <textarea name="bio" cols="30" rows="20" maxlength="625">Ваша биография</textarea>
+            <textarea name="bio" cols="30" rows="20" maxlength="1000">Ваша Биография</textarea>
         </label>
         <br>
         <br>
@@ -179,8 +190,8 @@
         
     </form>
 </div>
-<footer id="footer">
-    <span id="sozd">(с) Оганес Элизбаров 2022</span>
+<footer id="footer-->">
+    <span id="hozyain">(с) Замотаев Максим 2022</span>
 </footer>
 </body>
 </html>
