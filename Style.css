@@ -11,12 +11,12 @@
     height: 120px;
 }
 
-#Logoh1{
+#Shapka{
     max-width: 960px;
     margin: 0 auto;
 }
 
-#logo{
+#shapka_1{
     
     float: left;
     margin: 10px;
@@ -30,7 +30,7 @@
     color: #1c8f85;
 }
 
-#new{
+#nav{
     max-width: 960px;
     background-color: rgb(0, 255, 127);
     margin: 0 auto;
@@ -38,20 +38,20 @@
     padding: 10px;
 }
 
-#cont1{
+#c1{
     margin-left: 0%;
     width: 120px;
     margin-right: 300px;
     font-family: 'Georgia', arial, serif;
 
 }
-#cont2{
+#c2{
     width: 400px;
     margin-right: 500px;
     font-family: 'Georgia', arial, serif;
 }
 
-#cont3{
+#c3{
     width: 100px;
     font-family: 'Georgia', arial, serif;
 }
@@ -63,11 +63,11 @@
     padding: 10px;
 }
 
-.n_k{
+.ne_chet{
     background-color: rgb(73, 126, 118);
 }
 
-.k{
+.chet{
     background-color: rgb(170, 240, 209);
 }
 
@@ -79,6 +79,6 @@
     margin-top: 20px;
 }
 
-#sozd{
+#hozyain{
     margin: 30px 0px 0px 60px;
 }
