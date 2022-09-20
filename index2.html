@@ -3,14 +3,14 @@
     <head>
         <meta charset="utf-8"> <!-- UTF-8 - кодировка для Unicode -->
         <title>Логотип(шапка) сайта</title>
-        <link rel="stylesheet" href="https://MaximZamotaev228.github.io/style.css"> <!-- путь к таблице стилей внутри атрибута href и атрибут rel со значением stylesheet-->
+        <link rel="stylesheet" href="https://maximzamotaev228.github.io/style.css"> <!-- путь к таблице стилей внутри атрибута href и атрибут rel со значением stylesheet-->
     </head>
 
     <body id="body" >
         <header id="header">
             <div id="Shapka">
+                <h1 id="h1">Что-то на богатом</h1>
                 <img id="shapka" src="https://i.pinimg.com/236x/19/67/23/19672351d371ad8cacdbb4def232aca4.jpg?nii=t" alt="Логотип(шапка)">
-                <h1 id="h1">ПроектБест</h1>
             </div>
         </header>
 
@@ -22,102 +22,46 @@
 
 <div class="content" id="content_1">        
 <ol>
-    <li>
-        <a id="top" href="http://example.com">Сылка на главную страницу сайта example.com</a>
-    </li>
-
-    <li>
-        <a href="https://example.com">Абсолютная ссылка на главную старницу сайта example.com в протоколе https</a>
-    </li>
-
-    <li>
-        <a href="FTP://example.com"> FTP без авторизации</a>
-    </li>
-
-    <li>
-        <a href="FTP://admin:1234@example.com">FTP с авторизацией</a>
-    </li>
-
-    <li>
-        <a href="https://ru.wikipedia.org/wiki/Краснодар#Достопримечательности">Ссылка на фрагмент страницы некоторого сайта</a>
-    </li>
-
-    <li>
-        <a href="#top">Ссылку на фрагмент текущей страницы</a>
-    </li>
-
-    <li>
-        <a href="https://example.com/?utm_medium=cpc&utm_source=yandex">Ссылка с двумя параметрами</a>
-    </li>
-
-    <li>
-        <ul>
-        <li><a href="https://www.kubsu.ru/" title="Официальный сайт Кубанского государственного университета">КубГУ</a></li>
-        <li><a href="https://www.kubsu.ru/user" title="Страница для авторизации на сайте Кубанского государственного университета" >Авторизция на сайте КубГУ</a></li>
-        <li><a href="https://enroll.kubsu.ru/Login" title="Страница для авторизации абитурента Кубанского государственного университета">Авторизцаия для абитурентов</a></li>
-        </ul>
-    </li>
-
-    <li>
-        <a>http://example.com - cсылка без href</a>
-    </li>
-
-    <li>
-        <a href="">Ссылка с путсым href</a>
-    </li>
-
-    <li>
-        <a href="http://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a>
-    </li>
-
-    <li> 
-        <!--noindex--> <a href="http://example.com">Сcылка без индексации</a> <!--/noindex--> 
-    </li>
-
-    <li>
-        <p>Для улучшения визуального восприятия веба стала широко использоваться технология <a href="https://ru.wikipedia.org/wiki/CSS">CSS</a>,
+  <li><a href="http://example.com/">Абсолютная гиперссылка на главную страницу сайта example.com</a></li>
+<li><a href="https://example.com/">Абсолютная гиперссылка на главную странцу сайта example.com в протоколе https</a></li>  
+<li><a href="ftp://example.com/">Ссылка на файл на сервере FTP без авторизации</a></li>
+<li><a href="ftp://user:password@example.com/">Ссылка на файл на сервере FTP с авторизацией</a></li>
+<li><a href="https://ru.wikipedia.org/wiki/Архитектура_Византии#:~:text=Подходы к изучению византийской архитектуры">Ссылка на фрагмент страницы некоторого сайта</a></li>
+<li><a href="https://github.com/MaximZamotaev228/MaximZamotaev228.github.io/edit/main/index.html#:~:text=Commit changes">Ссылка на фрагмент текущей страницы</a></li>
+<li><a href="https://yandex.ru/search/?text=википедия+на+русском&clid=2411726&lr=21129">Ссылка с двумя параметрами в URL</a></li> 
+<li><a>Список ссылок основной навигации сайта с подписями title:</a>
+<ol>
+  <li><a href="MaximZamotaev228.github.io">Ссылка на мой сайт</a></li>
+  <li><a href="https://yandex.ru/">Ссылка на поисковую систему Яндекс</a></li>
+</ol>
+</li>
+<li><a>Cсылка без href</a></li>
+<li><a href="">Ссылка с пустым href</a></li>
+<li><a href="https://kubsu.ru" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+<li><!--noindex--><a href="https://kubsu.ru">Запрещенная для индексации поисковиками</a><!--/noindex--></li>
+<li>
+        <p>Элемент HTML - Ссылка на Внешний Ресурс <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/link">(link)</a> определяет отношения между,
         <br> 
-        которая позволяет задавать единые стили оформления для множества веб-страниц.
+        текущим документом и внешним ресурсом. Этот элемент чаще всего используется для ссылки
         <br> 
-        Ещё одно нововведение, на которое стоит обратить внимание, — система обозначения ресурсов URN</p> 
-    </li>
-
-    <li>
-        <a href="https://www.kubsu.ru/"><img src="https://www.kubsu.ru/sites/all/themes/portal_kubsu/logo.png" alt="Логотип КубГУ"></a>
-    </li>
-    
-    <li>
-        <img src = "https://autogear.ru/misc/i/gallery/98402/2640804.jpg" width="250" height="140" usemap = "#figuri" alt="Зелёный круг и красный квадрат">
-        <map name = "figuri" >
-            <area shape = "rect" coords = "126,26,213,115" href = "https://ru.wikipedia.org/wiki/Квадрат" alt = "Красный квадрат" >
-            <area shape = "circle" coords = "62,70,42" href = "https://ru.wikipedia.org/wiki/Круг" alt = "Зелёный круг." >
-        </map>
-    </li>
-
-    <li>
-        <a href="index.html">Относительная ссылка на страницу в текущем каталоге</a>
-    </li>
-
-    <li>
-        <a href="/about/index.html">Относительная ссылка на страницу в каталоге about</a>
-    </li>
-
-    <li>
-        <a href="../index.html"> Относительная ссылка на страницу в каталоге уровнем выше текущего</a>
-    </li>
-
-    <li>
-        <a href="../../index.html"> Относительная ссылка на страницу в каталоге двумя уровнями выше</a>
-    </li>
-
-    <li>
-        <a href="/"> Сокращенная ссылка на главную страницу</a>
-    </li>
-
-    <li>
-        <a href="/about"> Сокращенная внутренняя ссылка</a>
-    </li>
-
+        на <a href="https://developer.mozilla.org/ru/docs/Glossary/CSS">stylesheets</a>, а также для создания иконок сайта (как для иконок в стиле "favicon", так и для
+        <br> 
+        иконок домашних экранов и приложений мобильных устройств) среди прочего.</p> 
+</li>
+<li><a href="https://www.google.ru/"><img src="https://png.monster/wp-content/uploads/2020/11/Google-Amblem-7c49bdf3-250x141.png" alt="Ссылка-изображение"></a></li>
+<li>
+  <img src="https://autogear.ru/misc/i/gallery/98402/2640804.jpg" width="250" height="140" usemap="#figuri" alt="Зелёный круг и красный квадрат">
+  <map name = "figuri">
+    <area shape = "rect" coords="126,26,213,115" href="https://ru.wikipedia.org/wiki/Квадрат" alt="Красный квадрат">
+    <area shape = "circle" coords="62,70,42" href="https://ru.wikipedia.org/wiki/Круг" alt="Зелёный круг.">
+  </map>
+</li>
+<li><a href="index.html">Относительная ссылка на страницу в текущем каталоге</a></li> 
+<li><a href="/about/index.html">Относительная ссылка на страницу в каталоге about</a></li>
+<li><a href="../index.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+<li><a href="../../index.html">Относительная ссылка на страницу в каталоге двумя уровнями выше текущего</a></li>
+<li><a href="/">Сокращённая ссылка на главную страницу</a></li>
+<li><a href="/downup">Сокращённая внутрення ссылка</a></li>
 </ol>
 </div>
 <div class="content" id="content_2">
