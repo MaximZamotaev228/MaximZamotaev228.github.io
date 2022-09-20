@@ -7,7 +7,7 @@
 #header{
     width: 100%;
     background-color: rgb(123,63,0);
-    padding: 10px 0px 10px 0px;
+    padding: 40px 0px 40 0px;
     height: 100
 }
 
@@ -27,7 +27,7 @@
 #h1{
     background-color: rgb(123,63,0);
     padding: 10px;
-    color: #1c8f85;
+    color: #f48c4f;
 }
 
 #nav{
@@ -61,7 +61,7 @@
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
-    background-color: rgb(123,63,0);
+    background-color: rgb(253,221,230);
 }
 
 .ne_chet{
