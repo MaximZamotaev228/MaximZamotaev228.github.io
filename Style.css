@@ -32,7 +32,7 @@
 
 #nav{
     max-width: 960px;
-    background-color: rgb(123,63,0);
+    background-color: rgb(253,221,230);
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
@@ -46,8 +46,8 @@
 
 }
 #c2{
-    width: 120px;
-    margin-right: 500px;
+    width: 70px;
+    margin-right: 300px;
     font-family: 'Georgia', arial, serif;
 }
 
