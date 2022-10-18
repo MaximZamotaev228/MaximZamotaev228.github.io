@@ -17,22 +17,22 @@ header
 nav
 {
     max-width: 960px;
-    background-color: rgb(123,63,0);
+    background-color: rgb(253,221,230);
 }
 
-chast1
+#chast1
 {
-    background-color: rgb(123,63,0);
+    background-color: rgb(253,221,230);
 }
 
-chast2
+#chast2
 {
-    background-color: rgb(123,63,0);
+    background-color: rgb(253,221,230);
 }
 
-chast3
+#chast3
 {
-    background-color: rgb(123,63,0);
+    background-color: rgb(253,221,230);
 }
 .ne_chet 
 {
