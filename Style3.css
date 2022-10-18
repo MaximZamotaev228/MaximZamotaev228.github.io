@@ -1,1 +1,89 @@
+#body 
+{
+    background-color: rgb(204,108,92);
+}
 
+header 
+{
+    background-color: rgb(123,63,0);
+}
+
+#h1 
+{
+    background-color: rgb(123,63,0);
+    color: #f48c4f;
+}
+
+nav
+{
+    max-width: 960px;
+    background-color: rgb(123,63,0);
+}
+
+chast1
+{
+    background-color: rgb(123,63,0);
+}
+
+chast2
+{
+    background-color: rgb(123,63,0);
+}
+
+chast3
+{
+    background-color: rgb(123,63,0);
+}
+.ne_chet 
+{
+    background-color: rgb(0,0,255);
+}
+
+.chet
+{
+    background-color: rgb(255,0,0);
+}
+
+footer 
+{
+    background-color: rgb(123,63,0);
+}
+#hozyain
+{
+    margin: 30px 0px 0px 60px;
+    color:#f48c4f;
+}
+
+@media (min-width: 768px)
+{
+    header{
+      height: 120px;}
+    #Shapka{
+        max-width: 960px;}
+
+    #shapka_1{
+        height: 100px;
+        width: 120px;}
+    #content3{
+        text-align: right;}
+    #content2{
+        text-align: center;}
+    footer{
+        height: 130px;}
+}
+
+@media (max-width: 768px){
+    header{
+        height: 14vh;
+    }
+
+    #shapka_1{
+        height: 10vh;
+        width: 25vw;
+    }
+
+    #h1{
+        text-align: left;
+        font-size: calc(3vh*1.2);
+    }
+}
