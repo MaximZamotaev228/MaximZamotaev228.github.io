@@ -1,1 +1,45 @@
-
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="https://maximzamotaev228.github.io/Style5.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Задание 6</title>
+     <script src="JavScr2.js"></script>
+  </head>
+<body>
+  <form><div class="Kontent">
+	  <p>Задание 5</p>
+	<p>Количество товаров:</p>
+	<input type="text" id="kolvo">
+	<p>Цена за один товар:</p>
+	<input type="text" id="cena">
+	<p><input type="button" value="Посчитать" id="butn" onClick="onClick();"></p>
+	<br><p>Итого:</p>
+        <div id="resultat"></div>
+	</div>
+  </form>
+<div class="2Kontent2">
+	<p>Задание 6</p>
+        <form id="vtoroe">
+            <label>Количество товара:<input id="koltovara"></label><br>
+    <select name="prodType" id="varianti">
+      <option value="1">Продукт 1</option>
+      <option value="2">Продукт 2</option>
+      <option value="3">Продукт 3</option>
+    </select>
+    <div id="radios" style="display: none;">
+      <label><input type="radio" name="prodOptions" value="option1">Опция№ 1</label>
+      <label><input type="radio" name="prodOptions" value="option2"> Опция№ 2</label>
+      <label><input type="radio" name="prodOptions" value="option3"> Опция№ 3</label>
+    </div>
+    <div id="checkboxes" style="display: block;">
+      <label><input type="checkbox" name="prop1">Новый товар</label>
+    </div>
+     <br><p>Итого:</p>
+    <div id="2result2">
+    </div>
+  </form>
+    </div>
+</body>
+</html>
