@@ -1,1 +1,31 @@
+body
+{
+  background-color: rgb(204,108,92);
+}
 
+.Kontent 
+{
+max-width:600px;
+background-color: rgb(253,221,230);
+text-align: center;
+height: 350px;
+margin: 0 auto;
+}
+
+.Kontent_2 {
+max-width:600px;
+background-color: rgb(253,221,230);
+text-align: center;
+height: 270px;
+margin: 0 auto;
+}
+#vtoroe
+{
+text-align: center;
+padding-top: 15px;
+}
+
+#varianti 
+{
+margin-top: 10px;
+}
