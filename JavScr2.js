@@ -72,7 +72,7 @@ function updatePrice() {
         }
     });
 
-    prodPrice = document.getElementById("result_2");
+    prodPrice = document.getElementById("resultat_2");
     prodPrice.innerHTML = (price * koltovara);
     if (/\D/.test(koltovara)) {
         prodPrice.innerHTML = "Неверные данные";
