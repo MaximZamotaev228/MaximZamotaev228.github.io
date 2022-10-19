@@ -126,7 +126,7 @@ window.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    koltovara = document.getElementById("kol");
+    koltovara = document.getElementById("koltovara");
     koltovara.oninput = function () {
         updatePrice();
     };
