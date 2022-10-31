@@ -2,10 +2,7 @@ body
 {
 text-align: center;
 margin: auto;
-padding-top: 400px;
 background-color: rgb(102, 0, 102);
-width: 1300px;
-height: 600px;
 }
 
 @media (max-width:960px) 
