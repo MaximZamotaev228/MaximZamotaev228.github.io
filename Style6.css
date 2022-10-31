@@ -7,10 +7,10 @@ body
 {
     .slider
     {
-        
-        top: 10vh;
-        height: 20vh;
-        width: 80vw;
+        top: 25vh;
+        height: 200px;
+        width: 100vw;
+        max-width: 960px;
     }
     
     img
