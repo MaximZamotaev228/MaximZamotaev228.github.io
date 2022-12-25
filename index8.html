@@ -9,24 +9,24 @@
     <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Yk6CAYNENVqSF9GoA_UrCOV_B59G-FybXL3UbOnDfS97qLC-YwESyVU58S0Pa5diQyHcByiBIHEAB5rg6_41aMZ1kOtMJpzVmpB3Xgp2sgI" charset="UTF-8"></script><script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slapform@latest/dist/index.min.js"></script>
   </head>
-  ---------
   <body>
-	<button class="myButton">Обратиться</button>
+    <button class="myButton">Обратиться</button>
     <form id="myForm" method="POST" action="https://api.slapform.com/aXHxW8DxN">
-		<h3>Форма</h3>
-		<div id="info"><div class="pole">
-				Имя: <input type="text" id="name_polz" maxlength="50" size="50" placeholder="Введи имя"></div>
+		<h1>Форма</h1>
+		<div id="info">
+		<div class="pole">
+				Имя: <input type="text" id="imya" maxlength="50" size="50" placeholder="Введите имя"></div>
                 <div class="pole">
-				Email: <input id="email_polz" type="email" maxlength="256" size="50" placeholder="Ввуди email"></div>
+				Email: <input type="email" id="email"  maxlength="256" size="50" placeholder="Введите email"></div>
                 <div class="pole">
 				Поле для сообщения:
 				<br>
-				<textarea name="Mes" id="mes" cols="40" rows="5" maxlength="150" placeholder="Введи сообщение"></textarea></div>
+				<textarea name="Soobshenie" id="soobshenie" cols="40" rows="5" maxlength="150" placeholder="Введите сообщение"></textarea></div>
 	        <div class="pole">
 				С контрактом ознакомлен(а):<input id="check" type="checkbox"></div>
                 <div id="slide">
-				<button type="submit" id="close" onclick="return openHome()">Назад</button>
-				<button type="submit" id="lete" disabled>Отправить</button></div>
+				<button type="submit" id="nazad" onclick="return openHome()">Назад</button>
+				<button type="submit" id="otpravit" disabled>Отправить</button></div>
 		</div>
 	</form>
     <div id="myOverlay"></div>
